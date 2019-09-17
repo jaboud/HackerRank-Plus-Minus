@@ -33,6 +33,8 @@ namespace HackerRank_Plus_Minus
             int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
             ;
             PlusMinus(arr);
+
+            Console.Read();
         }
     }
 }
