@@ -10,6 +10,8 @@ namespace HackerRank_Plus_Minus
             decimal positives = 0;
             decimal negatives = 0;
             decimal zeros = 0;
+            //Length of array variable so we dont't have to repeatedly computing it.
+            decimal length = arr.Length;
         }
         static void Main(string[] args)
         {
