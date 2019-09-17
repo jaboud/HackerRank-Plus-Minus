@@ -19,7 +19,12 @@ namespace HackerRank_Plus_Minus
                 if (arr[i] < 0) negatives++;
                 else if (arr[i] > 0) positives++;
                 else zeros++;
-            } 
+            }
+
+            //Grabs the amount of positive, negative and zero elements we divide it by the total number of elements respectively, turning into a ratio and printing it out.
+            Console.WriteLine(positives / length);
+            Console.WriteLine(negatives / length);
+            Console.WriteLine(zeros / length);
         }
         static void Main(string[] args)
         {
@@ -31,3 +36,4 @@ namespace HackerRank_Plus_Minus
         }
     }
 }
+
