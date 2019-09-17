@@ -6,7 +6,10 @@ namespace HackerRank_Plus_Minus
     {
         static void PlusMinus(int[] arr)
         {
-
+            //Decimal variables so we can store the amount of postives, negatives or zeros
+            decimal positives = 0;
+            decimal negatives = 0;
+            decimal zeros = 0;
         }
         static void Main(string[] args)
         {
