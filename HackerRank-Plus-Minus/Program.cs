@@ -12,6 +12,14 @@ namespace HackerRank_Plus_Minus
             decimal zeros = 0;
             //Length of array variable so we dont't have to repeatedly computing it.
             decimal length = arr.Length;
+
+            //For loop to check if the element is positive, negative or zero.
+            for (int i = 0; i < length; i++)
+            {
+                if (arr[i] < 0) negatives++;
+                else if (arr[i] > 0) positives++;
+                else zeros++;
+            } 
         }
         static void Main(string[] args)
         {
